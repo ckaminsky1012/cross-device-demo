@@ -30,17 +30,17 @@
         <tbody>
           <tr> 
             <td> Corey Kaminsky </td>
-            <td> 123456789 </td>
-            <td> <a href="" class="btn btn-info btn-raised btn-sm">Sample Page</a> </td>
-            <td> <a href="" class="btn btn-info btn-raised btn-sm">Reporting</a> </td>
+            <td> 11002202986340 </td>
+            <td> <a href="test_placement.php" target="_blank" class="btn btn-info btn-raised btn-sm">Sample Page</a> </td>
+            <td> <a href="http://app.atlassolutions.com/reports/11002202986371/?company_id=11002201266394" class="btn btn-info btn-raised btn-sm" target="_blank" >Reporting</a> </td>
           </tr>
         </tbody>
          <tbody>
           <tr> 
             <td> Adam Cane </td>
-            <td> 678912345 </td>
-            <td> <a href="" class="btn btn-info btn-raised btn-sm">Sample Page</a> </td>
-            <td> <a href="" class="btn btn-info btn-raised btn-sm">Reporting</a> </td>
+            <td> 11002202986377 </td>
+            <td> <a href="test_placement.php" class="btn btn-info btn-raised btn-sm" target="_blank" >Sample Page</a> </td>
+            <td> <a href="http://app.atlassolutions.com/reports/11002202986385/?company_id=11002201266394" class="btn btn-info btn-raised btn-sm" target="_blank" >Reporting</a> </td>
           </tr>
         </tbody>
         <tbody>
