@@ -25,12 +25,12 @@
       testAPI();
     } else if (response.status === 'not_authorized') {
       // The person is logged into Facebook, but not your app.
-      document.getElementById('status').innerHTML = 'Please log ' +
+      document.getElementById('fb_status').innerHTML = 'Please log ' +
         'into this app.';
     } else {
       // The person is not logged into Facebook, so we're not sure if
       // they are logged into this app or not.
-      document.getElementById('status').innerHTML = 'Please log ' +
+      document.getElementById('fb_status').innerHTML = 'Please log ' +
         'into Facebook.';
     }
   }
@@ -86,8 +86,8 @@
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
-      document.getElementById('status').innerHTML =
-        'Thanks for logging in, ' + response.name + '!';
+      document.getElementById('fb_status').innerHTML =
+        'You are logging in as ' + response.name;
     });
   }
 </script>
@@ -122,11 +122,13 @@
       </tr>
     </thead>
     <tbody>
-      <tr> Corey Kaminsky </tr>
-      <tr> 123456789 </tr>
-      <tr> <div id="status"></div> </tr>
-      <tr> <button>Sample Page</button> </tr>
-      <tr> <button>Sample Report</button> </tr>
+      <tr> 
+        <td> Corey Kaminsky </td>
+        <td> 123456789 </td>
+        <td id="fb_status"> </td>
+        <td> <button>Sample Page</button> </td>
+        <td> <button>Sample Report</button> </td>
+      </tr>
     </tbody>
   </table>
 </div>
