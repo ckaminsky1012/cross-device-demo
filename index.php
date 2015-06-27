@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Facebook Login JavaScript Example</title>
+<title>Cross Device Demo App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/css/material.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/css/ripples.css" />
 <meta charset="UTF-8">
 </head>
 <body>
@@ -92,10 +98,37 @@
   the FB.login() function when clicked.
 -->
 
+
+
+
+
+
+
+
+
 <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 </fb:login-button>
 
-<div id="status">
+<div class="container">
+  <h1>Atlas Cross-Device Demo</h1>
+  <table class="table table-striped">
+    <thead>
+      <tr> 
+        <th> Name </th>
+        <th> Placement ID </th>
+        <th> Logged Into FB? </th>
+        <th> Launch Page</th>
+        <th> Launch Reporting </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr> Corey Kaminsky </tr>
+      <tr> 123456789 </tr>
+      <tr> <div id="status"></div> </tr>
+      <tr> <button>Sample Page</button> </tr>
+      <tr> <button>Sample Report</button> </tr>
+    </tbody>
+  </table>
 </div>
 
 </body>
