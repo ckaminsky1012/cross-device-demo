@@ -13,8 +13,8 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1> Demo like a boss</h1>
-        <p>This tool will help you demo Atlas' cross-device capabilities.</p>
+      <h1> Demo Like A Boss</h1>
+        <p>This tool will help you demo our cross-device capabilities.</p>
         <p><a class="btn btn-primary btn-lg">Learn more</a></p>
     </div> <!-- end div.jumbotron -->
       <br >
@@ -23,8 +23,8 @@
           <tr> 
             <th> Name </th>
             <th> Placement ID </th>
-            <th> Launch Page</th>
-            <th> Launch Reporting </th>
+            <th> Sample Placement</th>
+            <th> Reporting </th>
           </tr>
         </thead>
         <tbody>
