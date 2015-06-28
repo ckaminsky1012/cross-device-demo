@@ -98,14 +98,10 @@
   the FB.login() function when clicked.
 -->
 
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-</fb:login-button>
-
-<div id="status"> </div>
   <div class="container">
 		<div class="alert alert-dismissable alert-info">
 			<button type="button" class="close" data-dismiss="alert">×</button>
-			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"> </fb:login-button>
+			<div id="status"> </div> <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"> </fb:login-button>
 		</div> <!-- end div.alert -->
 
   	<h1>This is a sample Placement</h1>
